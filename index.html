@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen bg-white">
+    <div class="flex">
+        <div class="flex-1">
+            <div class="grid gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 bg-[#d9d9d9] md:bg-[#ea00e0] xl:bg-[#181616] p-10">
+                <div class="relative w-full pt-[120%]">
+                    <img class="absolute left-0 top-0 h-full w-full object-cover" src="https://i.ibb.co/qYZkjVn/img-demo-02.jpg" />
+                </div>
+                <div class="relative w-full pt-[120%]">
+                    <img class="absolute left-0 top-0 h-full w-full object-cover" src="https://i.ibb.co/kS2QWm3/img-demo-04.jpg" />
+                </div>
+                <div class="relative w-full pt-[120%]">
+                    <img class="absolute left-0 top-0 h-full w-full object-cover" src="https://i.ibb.co/KbxFnQL/img-demo-03.jpg" />
+                </div>
+                <div class="relative w-full pt-[120%]">
+                    <img class="absolute left-0 top-0 h-full w-full object-cover" src="https://i.ibb.co/dbCNFXj/img-demo-01.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="flex-none w-32 ml-7 bg-[#d9d9d9] hidden xl:block"></div>
+    </div>
+    <div class="flex mt-[5px] md:mt-1.5 xl:mt-2.5">
+        <div class="flex-1 h-[50px] bg-[#d9d9d9] px-3 text-right font-bold md:h-[100px] md:text-center xl:h-[120px] xl:text-left">
+            <input type="text" class="w-full p-3 mt-3 rounded-lg" />
+        </div>
+        <button class="flex-none w-32 ml-7 bg-[#d9d9d9] hidden xl:block">Enter</button>
+    </div>
+  </body>
+</html>
